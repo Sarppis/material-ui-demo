@@ -26,18 +26,20 @@ export default function MediaCard() {
   return (
     <Card className={classes.card}>
       <CardActionArea>
-        <CardMedia
-          className={classes.media}
-          image="/static/images/cards/contemplative-reptile.jpg"
-          title="Contemplative Reptile"
-        />
+      <CardMedia
+        component="img"
+        alt="Contemplative Reptile"
+        height="140"
+        image="./img/img_1.png"
+        title="Contemplative Reptile"
+      />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Lizard
+            Houses
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-            across all continents except Antarctica
+            Houses are a widespread group of squamate reptiles, with over 6,000 species, ranging
+            across all continents except Antarctica.
           </Typography>
         </CardContent>
       </CardActionArea>
